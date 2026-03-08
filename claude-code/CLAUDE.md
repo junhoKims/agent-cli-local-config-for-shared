@@ -10,3 +10,19 @@
 
 - 🗺 `sequential-thinking`: 계획(Plan) 생성 및 문제 해결, 분석 때마다 명시적으로 요청하지 않아도 항상 사용
 - 📋 `serena`: 작업(Task)의 탐색(Explore) 및 분석(Read) 때마다 명시적으로 요청하지 않아도 항상 사용
+
+## 자주 사용하는 명령어
+
+```bash
+npm run dev         # 개발 서버 실행 (일반적으로 http://localhost:3000)
+npm run build       # 프로덕션 빌드 실행
+npm run check:lint  # 린트 검사 실행
+npm run check:type  # 타입 검사 실행 (권장) 
+```
+
+## 작업 완료 체크리스트
+
+```bash
+npm run check:type  # 모든 검사 통과 확인
+npm run build       # 빌드 성공 확인
+```
