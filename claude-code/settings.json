@@ -9,7 +9,8 @@
   "permissions": {
     "allow": [
       "mcp__serena",
-      "mcp__sequential-thinking"
+      "mcp__sequential-thinking",
+      "mcp__shrimp-task-manager"
     ]
   },
   "effortLevel": "high",
