@@ -1,11 +1,11 @@
 {
-  "statusLine": {
-    "type": "command",
-    "command": "bash -c '\"/Users/junhokims/.proto/tools/node/18.19.1/bin/node\" \"$(ls -td ~/.claude/plugins/cache/claude-hud/claude-hud/*/ 2>/dev/null | head -1)dist/index.js\"'"
-  },
   "enabledPlugins": {
     "claude-hud@claude-hud": true
   },
+  "effortLevel": "high",
+  "model": "opus",
+  "outputStyle": "Planning",
+  "enabledMcpServers": ["serena", "sequential-thinking", "shrimp-task-manager"],
   "permissions": {
     "allow": [
       "mcp__serena",
@@ -13,6 +13,37 @@
       "mcp__shrimp-task-manager"
     ]
   },
-  "effortLevel": "high",
-  "model": "opus"
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "ExitPlanMode",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/bin/bash \"$HOME/.claude/hooks/notification-exit-plan-mode.sh\""
+          }
+        ]
+      },
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/bin/bash \"$HOME/.claude/hooks/notification-ask-user-question.sh\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/bin/bash \"/Users/junhokim/.claude/hooks/notification-stop.sh\""
+          }
+        ]
+      }
+    ]
+  }
 }
