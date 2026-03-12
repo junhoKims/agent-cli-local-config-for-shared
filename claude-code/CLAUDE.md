@@ -8,8 +8,22 @@
 
 ## MCP 규칙 (IMPORTANT)
 
-- 🗺 `sequential-thinking`: 계획(Plan) 생성 및 문제 해결, 분석 때마다 명시적으로 요청하지 않아도 항상 사용
-- 📋 `serena`: 작업(Task)의 탐색(Explore) 및 분석(Read) 때마다 명시적으로 요청하지 않아도 항상 사용
+- 🗺 `sequential-thinking`: 계획(Plan) 생성 및 문제 해결, 분석 때마다 명시적으로 요청하지 않아도 적극적으로 사용
+- 📋 `serena`: 작업(Task)의 탐색(Explore) 및 분석(Read) 때마다 명시적으로 요청하지 않아도 적극적으로 사용
+
+## Skill 규칙 (IMPORTANT)
+
+- 🗺 `playwright-cli`: 작업 시 브라우저(개발 서버)를 통해 검증이 필요할 때마다 playwright-cli, agent-browser를 명시적으로 요청하지 않아도 적극적으로 사용
+
+## 코드 스타일
+
+- 🗺 ES 모듈(import/export) 구문을 사용하고, CommonJS(require)는 사용하지 마십시오
+- 📋 가능하면 import를 구조 분해하십시오 (예: import { foo } from 'bar')
+
+## 워크플로우
+
+- 🗺 일련의 코드 변경을 완료할 때 반드시 타입 체크를 하십시오
+- 📋 성능상 이유로 전체 테스트 스위트가 아닌 단일 테스트 실행을 선호하십시오
 
 ## 자주 사용하는 명령어
 
@@ -17,7 +31,7 @@
 npm run dev         # 개발 서버 실행 (일반적으로 http://localhost:3000)
 npm run build       # 프로덕션 빌드 실행
 npm run check:lint  # 린트 검사 실행
-npm run check:type  # 타입 검사 실행 (권장) 
+npm run check:type  # 타입 검사 실행 (권장)
 ```
 
 ## 작업 완료 체크리스트
@@ -26,3 +40,5 @@ npm run check:type  # 타입 검사 실행 (권장)
 npm run check:type  # 모든 검사 통과 확인
 npm run build       # 빌드 성공 확인
 ```
+
+@RTK.md
