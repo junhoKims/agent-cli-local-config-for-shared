@@ -1,0 +1,205 @@
+{
+  "version": 3,
+  "skills": {
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "18a9a6d17d5958d4ab10405883b80960644dbd5b",
+      "installedAt": "2026-03-13T14:01:46.883Z",
+      "updatedAt": "2026-03-13T14:01:46.883Z"
+    },
+    "styled-components-best-practices": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mindrally/skills.git",
+      "skillPath": "styled-components-best-practices/SKILL.md",
+      "skillFolderHash": "a55085ae0347a56a6d7389bf77d006f62f5f446d",
+      "installedAt": "2026-03-13T14:02:11.655Z",
+      "updatedAt": "2026-03-13T14:02:11.655Z"
+    },
+    "brainstorming": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "skillFolderHash": "cb55eef29a446656b39f38ead06b4ea7232ab227",
+      "installedAt": "2026-03-13T14:12:37.748Z",
+      "updatedAt": "2026-03-13T14:12:37.748Z"
+    },
+    "next-best-practices": {
+      "source": "vercel-labs/next-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/next-skills.git",
+      "skillPath": "skills/next-best-practices/SKILL.md",
+      "skillFolderHash": "ad17eb27952b39a6ab0061bd50e8a2213b63a3ec",
+      "installedAt": "2026-03-13T14:14:10.481Z",
+      "updatedAt": "2026-03-13T14:14:10.481Z"
+    },
+    "writing-plans": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/writing-plans/SKILL.md",
+      "skillFolderHash": "484c438ecee175aadad4f6caa1213c20d2a92c03",
+      "installedAt": "2026-03-13T14:14:29.340Z",
+      "updatedAt": "2026-03-13T14:14:29.340Z"
+    },
+    "test-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/test-driven-development/SKILL.md",
+      "skillFolderHash": "98904a7d8e0e04b9bd46220b9b17298f45fe0b72",
+      "installedAt": "2026-03-13T14:14:53.360Z",
+      "updatedAt": "2026-03-13T14:14:53.360Z"
+    },
+    "tailwind-design-system": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/frontend-mobile-development/skills/tailwind-design-system/SKILL.md",
+      "skillFolderHash": "0dc67032a28f3a4a60c6c8b766e2b089df26bcb3",
+      "installedAt": "2026-03-13T14:15:12.948Z",
+      "updatedAt": "2026-03-13T14:15:12.948Z"
+    },
+    "canvas-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/canvas-design/SKILL.md",
+      "skillFolderHash": "928af0a3279dc4e0c0e6ceaf407a8542a2bb2aa2",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-13T14:15:58.179Z",
+      "updatedAt": "2026-03-13T14:15:58.179Z"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/webapp-testing/SKILL.md",
+      "skillFolderHash": "74cb751576f9e9af2aedff47e67861ef26db2dc4",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-13T14:16:49.162Z",
+      "updatedAt": "2026-03-13T14:16:49.162Z"
+    },
+    "systematic-debugging": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/systematic-debugging/SKILL.md",
+      "skillFolderHash": "828c239ac986cc1fc7edd10292f66e4a3640e9c0",
+      "installedAt": "2026-03-13T14:17:17.959Z",
+      "updatedAt": "2026-03-13T14:17:17.959Z"
+    },
+    "pdf": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pdf/SKILL.md",
+      "skillFolderHash": "6369f4649de69bd6857c9bc3b058a77206009238",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-13T14:17:27.491Z",
+      "updatedAt": "2026-03-13T14:17:27.491Z"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "skillFolderHash": "3116f3e62dbd02b44a598b1aa690d2a8938e8f89",
+      "installedAt": "2026-03-13T14:17:40.898Z",
+      "updatedAt": "2026-03-13T14:17:40.898Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "e81e77232443f0b2d70f152a671c6581850db856",
+      "pluginName": "agent-browser",
+      "installedAt": "2026-03-13T14:17:47.592Z",
+      "updatedAt": "2026-03-13T14:17:47.592Z"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/composition-patterns/SKILL.md",
+      "skillFolderHash": "bf90d0a4b83ea054653350f9c67f6de235d3a368",
+      "installedAt": "2026-03-13T14:17:56.889Z",
+      "updatedAt": "2026-03-13T14:17:56.889Z"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "skillFolderHash": "75e1acaafe8b08e59d4b86fc253ac7873aff6bba",
+      "pluginName": "ui-ux-pro-max",
+      "installedAt": "2026-03-13T14:18:15.715Z",
+      "updatedAt": "2026-03-13T14:18:15.715Z"
+    },
+    "seo-audit": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/seo-audit/SKILL.md",
+      "skillFolderHash": "c5423e592d1ce900fafca88b17f3896eea53b237",
+      "pluginName": "marketing-skills",
+      "installedAt": "2026-03-13T14:19:34.981Z",
+      "updatedAt": "2026-03-13T14:19:34.981Z"
+    },
+    "playwright-cli": {
+      "source": "microsoft/playwright-cli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/microsoft/playwright-cli.git",
+      "skillPath": "skills/playwright-cli/SKILL.md",
+      "skillFolderHash": "a5a8823e403adc13b2488aae9968d6d92adbd2d7",
+      "installedAt": "2026-03-13T14:20:53.203Z",
+      "updatedAt": "2026-03-13T14:20:53.203Z"
+    },
+    "receiving-code-review": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/receiving-code-review/SKILL.md",
+      "skillFolderHash": "7750c56fddb8b2f1cbdb1550a6e3e40d2eeac5f1",
+      "installedAt": "2026-03-13T14:23:08.997Z",
+      "updatedAt": "2026-03-13T14:23:08.997Z"
+    },
+    "executing-plans": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/executing-plans/SKILL.md",
+      "skillFolderHash": "20087d25fb28f5f54578d873dc198ab24b34f967",
+      "installedAt": "2026-03-13T14:28:33.225Z",
+      "updatedAt": "2026-03-13T14:28:33.225Z"
+    },
+    "using-superpowers": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/using-superpowers/SKILL.md",
+      "skillFolderHash": "9ff6cf6979d6afa62c3e5f6306b124df56afce31",
+      "installedAt": "2026-03-13T14:32:02.411Z",
+      "updatedAt": "2026-03-13T14:32:02.411Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "cline",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "claude-code"
+  ]
+}
