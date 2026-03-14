@@ -1,9 +1,9 @@
 {
-  "model": "opusplan",
-  "effortLevel": "high",
+  "model": "sonnet",
+  "effortLevel": "medium",
   "env": {
     "ENABLE_TOOL_SEARCH": "true",
-    "MAX_THINKING_TOKENS": "31999"
+    "MAX_THINKING_TOKENS": "10000"
   },
   "outputStyle": "Planning",
   "enabledPlugins": {
