@@ -13,6 +13,9 @@
     "allow": [
       "mcp__serena",
       "mcp__shrimp-task-manager"
+    ],
+    "ask": [
+      "Bash(brew:*)"
     ]
   },
   "enabledMcpServers": [
