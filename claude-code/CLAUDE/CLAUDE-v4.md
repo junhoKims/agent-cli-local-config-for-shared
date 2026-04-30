@@ -25,6 +25,7 @@
 - SOLID 원칙을 준수하되 적절한 수준으로 적용 ( @docs/solid-principle-guide.md )
 - 프론트엔드는 Composition Pattern으로 유연한 UI 구성 ( @vercel-composition-patterns 스킬 )
 - 프론트엔드는 선언적 코드 작성을 준수 ( @docs/declarative-code-guide.md )
+- 응집도 높고 결합도 낮은 코드를 작성 ( @docs/cohesion-coupling-guide.md )
 
 ## 코드 변경 원칙
 
